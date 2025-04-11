@@ -10936,6 +10936,6 @@ header.masthead .masthead-content .masthead-subheading {
 
 @media (min-width: 992px) {
   .smaller-logo {
-    max-width: 30%; /* Adjust for larger screens if desired */
+    max-width: 35%; /* Adjust for larger screens if desired */
   }
 }
