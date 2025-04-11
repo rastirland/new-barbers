@@ -10927,15 +10927,15 @@ header.masthead .masthead-content .masthead-subheading {
   }
 }
 .smaller-logo {
-  max-width: 30%; /* Adjust this percentage as needed */
-  height: auto;     /* Maintain aspect ratio */
-  border-radius: 50%; /* Makes the image circular initially */
+  max-width: 35%; /* Increased from 30% */
+  height: auto;
+  border-radius: 50%;
   -webkit-mask-image: radial-gradient(ellipse farthest-side at 50% 50%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
   mask-image: radial-gradient(ellipse farthest-side at 50% 50%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
 @media (min-width: 992px) {
   .smaller-logo {
-    max-width: 20%; /* Adjust for larger screens if desired */
+    max-width: 35%; /* Adjust for larger screens if desired */
   }
 }
