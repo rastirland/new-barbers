@@ -10927,8 +10927,11 @@ header.masthead .masthead-content .masthead-subheading {
   }
 }
 .smaller-logo {
-  max-width: 30%; /* Adjust this percentage as needed */
-  height: auto;     /* Maintain aspect ratio */
+  max-width: 30%; /* Increased from 30% */
+  height: auto;
+  border-radius: 50%;
+  -webkit-mask-image: radial-gradient(ellipse farthest-side at 50% 50%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(ellipse farthest-side at 50% 50%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
 @media (min-width: 992px) {
