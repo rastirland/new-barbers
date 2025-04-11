@@ -10914,10 +10914,10 @@ header.masthead .masthead-content .masthead-subheading {
   color: black; /* Black text on white background */
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1290px) {
   header.masthead {
     padding-top: calc(3rem + 55px);
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
