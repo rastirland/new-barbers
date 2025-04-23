@@ -10939,3 +10939,35 @@ header.masthead .masthead-content .masthead-subheading {
     max-width: 35%; /* Adjust for larger screens if desired */
   }
 }
+
+.gallery-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px; /* Example maximum width - adjust as needed */
+  height: 400px; /* Add a fixed height to the container - adjust as needed */
+  margin: 20px auto;
+}
+
+.gallery-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Make the item fill the container height */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.gallery-item.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%; /* Make the image fill the item */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}

@@ -5,76 +5,93 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>The Barbers Lounge MK</title>
+        <title>The Barbers Lounge MK - Gallery</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .gallery-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
+                justify-content: center;
+            }
+            .gallery-item {
+                width: calc(33% - 20px); /* Adjust as needed for different screen sizes */
+                overflow: hidden;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+                display: block;
+                transition: transform 0.3s ease-in-out;
+            }
+            .gallery-item img:hover {
+                transform: scale(1.05);
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 992px) {
+                .gallery-item {
+                    width: calc(50% - 20px);
+                }
+            }
+            @media (max-width: 768px) {
+                .gallery-item {
+                    width: 100%;
+                }
+            }
+        </style>
     </head>
     <body id="page-top">
-        <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <a class="navbar-brand" href="#page-top"></a>
+                <a class="navbar-brand" href="index.html">The Barbers Lounge MK</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#scroll">Back to Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Book Now</a></li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Testimonials</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Header-->
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <img src="assets/img/barberlogo.jpeg" alt="Barber Logo" class="smaller-logo">
-                    <h1 class="masthead-heading mb-0">The Barbers</h1>
-                    <h2 class="masthead-subheading mb-0">Lounge Mk</h2>
+                    <h1 class="masthead-heading mb-0">Our</h1>
+                    <h2 class="masthead-subheading mb-0">Gallery</h2>
                 </div>
             </div>
- 
         </header>
-        <!-- Content section 1-->
-        <section id="scroll">
+        <section>
             <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <p></p>
-                    <div class="download-links">
-                        <a href="http://play.google.com/store/apps/details?id=com.nearcut.thebarbersloungemk" style="display: inline-block; vertical-align: middle;">
-                          <img src="assets/img/android.png" alt="Download for Android">
-                      
-                        </a>
-                        <a href="http://apps.apple.com/gb/app/the-barbers-lounge-mk/id6479361852?uo=4" style="display: inline-block; vertical-align: middle;">
-                          <img src="assets/img/apple.png" alt="Download for Apple">
-                        </a>
-                      </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <!-- <h2 class="display-4">Mobile Downloads going here</h2> -->
-                            <p></p>
-                        </div>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="assets/img/01.jpg" alt="Haircut 1">
                     </div>
-                </div>
+                    <div class="gallery-item">
+                        <img src="assets/img/02.jpg" alt="Beard Trim 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/img/03.jpg" alt="Hair Style 1">
+                    </div>
+                    </div>
             </div>
-            <p></p>
         </section>
-       
 
-        <!-- Footer-->
         <footer class="py-5 bg-black">
             <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; TheBarbersLoungeMK</p></div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
-</html>
+    </html>
