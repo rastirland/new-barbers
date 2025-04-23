@@ -10971,3 +10971,11 @@ header.masthead .masthead-content .masthead-subheading {
   height: 100%; /* Make the image fill the item */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
+/* In your css/styles.css */
+body#page-top header.masthead {
+    background-color: transparent !important; /* Use !important to override other styles if necessary */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
