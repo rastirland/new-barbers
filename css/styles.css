@@ -10972,6 +10972,13 @@ header.masthead .masthead-content .masthead-subheading {
   object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
+body#page-top header.masthead {
+  background-color: transparent !important;
+  padding-top: 4rem !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 
 body#page-top.gallery-page header.masthead {
   background-color: transparent !important;
