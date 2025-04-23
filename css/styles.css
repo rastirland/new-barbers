@@ -10975,7 +10975,7 @@ header.masthead .masthead-content .masthead-subheading {
 
 body#page-top.gallery-page header.masthead {
   background-color: transparent !important;
-  padding-top: 0 !important;
+  padding-top: 4rem !important;
   padding-bottom: 0 !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -10984,7 +10984,7 @@ body#page-top.gallery-page header.masthead {
 
 body#page-top.book-page header.masthead {
   background-color: transparent !important;
-  padding-top: 1rem !important;
+  padding-top: 4rem !important;
   padding-bottom: 0 !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
